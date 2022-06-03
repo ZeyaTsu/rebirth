@@ -1,11 +1,8 @@
-
 import random
 import math
 #### Vector: coordinates from points xA, yA, xB, Yb | DET
 
-
 def vector_x(xa, xb):
-
     Pa = xb - xa
     return Pa 
 
@@ -13,9 +10,7 @@ def vector_y(ya, yb):
     Pb = yb - ya
     return Pb
 
-
 def vector_det(x, y, x1, y1):
-
     det = (x * y1) - (y * x1)
     return det
 
@@ -39,13 +34,10 @@ def rand(min1, max1):
 #### Number guesser
 ## Need rebirth.rand(min1, max1) (see example)
 
-
 def guess(rand):
-    
     guess = float(input("Rebirth| Guess > "))
     if guess == rand:
         print("Rebirth| You found the correct number.")
-        
     elif guess < rand:
         print("Rebirth| Higher!")
     elif guess > rand:
@@ -108,7 +100,6 @@ def password(len):
 ## OR
 # length = int(input("Password length: "))
 # print("Your new password is", rebirth.password(length))
-
 
 #### Ping
 def ping():
