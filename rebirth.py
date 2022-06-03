@@ -131,3 +131,45 @@ def odd_even(number, messageEven, messageOdd):
 # = 
 ## OTHER EXAMPLE
 # rebirth.odd_even(rebirth.rand(1,20), "Even", "Odd")
+
+
+#### For... loop
+
+def loop(value, times, function):
+    for value in range(1, times+1):
+        function()
+
+## Value is a 'group' it means that if you want to make a different loop you change the value (which is a
+# number)
+### Example
+# rebirth.loop(1, 10, hi)
+# it will repeat the hi() function 10 times in group1.
+# rebirth.loop(2, 10, bye)
+# it will repeat the bye() function 10 times in group2
+
+#### Infinity Loop (Checker Loop)
+
+def loopinf(value, function):
+    
+    for o in range(1, value):
+        for p in range(1, value):
+            function()
+        value = value * 5
+            
+### Different of the while loop!
+### value 4 = True
+### value 0 = False
+## Example
+# rebirth.loopinf(4, hi)
+# will repeat the hi() function infinity as long you don't change value by 0
+# rebirth.loopinf(0, hi)
+# the loop on the hi() function will end.
+        
+    
+        
+    
+    
+
+
+
+
