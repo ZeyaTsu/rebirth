@@ -11,34 +11,42 @@ import math
 
 #### Vector: coordinates from points xA, yA, xB, Yb | DET
 
-vector_x()
-vector_y()
-vector_det()
+def vector():
+    vector_x()
+    vector_y()
+    vector_det()
 
 #### Generate a random number
 
-rand()
+def randomization():
+    rand()
 
 #### Number guesser
 
-guess()
+def guesser():
+    guess()
 
 # Number generator from Pi
 
-pi_gen()
+def pigen():
+    pi_gen()
 
 #### All informations about the Python Module
 
-info()
+def information():
+    info()
 
 #### Generating password /!\ Have fun to customize it by yourself
 
-password()
+def pwd():
+    password()
 
 #### Ping
 
-ping()
+def pin():
+    ping()
     
 #### Number: Odd or Even 
 
-odd_even()
+def oddeven():
+    odd_even()
