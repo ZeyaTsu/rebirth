@@ -1,5 +1,5 @@
-# Rebirth
-Simple module that simplifies lines of code in just 1 line. Has very useful commands.
+# Rebirth Basic
+New programming langage that is simple, easy, fast, compact based on Python
 
 ## Installation
 <a href="https://pypi.org/project/rebirth">
@@ -9,3 +9,5 @@ Simple module that simplifies lines of code in just 1 line. Has very useful comm
 Rebirth is available on PyPi, you can install with the following command:
 
 ``$ pip install rebirth``
+
+/!\ Pypi doesn't contain the latest version of Rebirth Basic.
