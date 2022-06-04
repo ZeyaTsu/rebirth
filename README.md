@@ -1,4 +1,5 @@
-# ![Logo Rebirth Basic](assets/logo_rebirth.png =x100) Rebirth Basic
+![Logo Rebirth Basic](assets/logo_rebirth.png =x100)
+# Rebirth Basic
 New programming langage that is simple, easy, fast, compact based on Python
 
 ## Installation
