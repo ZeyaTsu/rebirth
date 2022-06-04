@@ -1,4 +1,4 @@
-# ![Logo Rebirth Basic](assets/logo_rebirth.png) Rebirth Basic
+# <img alt="Logo Rebirth Basic" src="assets/logo_rebirth.png width="100"> Rebirth Basic
 New programming langage that is simple, easy, fast, compact based on Python
 
 ## Installation
