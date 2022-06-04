@@ -1,4 +1,6 @@
+from forloop import *
 from guess import *
+from infloop import *
 from info import *
 from oddeven import *
 from password import *
@@ -50,3 +52,13 @@ def pin():
 
 def oddeven():
     odd_even()
+
+#### For... loop
+
+def forlop():
+    forloop()
+
+#### Infinity Loop (Checker Loop)
+
+def inflop:
+    infloop()
