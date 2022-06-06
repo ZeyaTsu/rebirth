@@ -11,7 +11,6 @@ def vector_y(ya, yb):
     return Pb
 
 def vector_det(x, y, x1, y1):
-
     det = (x * y1) - (y * x1)
     return det
 
@@ -141,7 +140,6 @@ def loop(value, times, function):
 #### Infinity Loop (Checker Loop)
 
 def loopinf(value, function):
-    
     for o in range(1, value):
         for p in range(1, value):
             function()
@@ -154,4 +152,3 @@ def loopinf(value, function):
 # rebirth.loopinf(4, hi)
 # will repeat the hi() function infinity as long you don't change value by 0
 # rebirth.loopinf(0, hi)
-# the loop on the hi() function will end.
