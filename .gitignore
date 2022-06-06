@@ -4,3 +4,7 @@ src/__pycache__/*
 
 # Ignore the test.py, this is not for all publics
 src/test.py
+
+# FUCKING, THUMB.DBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Thumbs.db
+*.db
