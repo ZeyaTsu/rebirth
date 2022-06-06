@@ -1,11 +1,8 @@
-
 import random
 import math
 #### Vector: coordinates from points xA, yA, xB, Yb | DET
 
-
 def vector_x(xa, xb):
-
     Pa = xb - xa
     return Pa 
 
@@ -13,9 +10,7 @@ def vector_y(ya, yb):
     Pb = yb - ya
     return Pb
 
-
 def vector_det(x, y, x1, y1):
-
     det = (x * y1) - (y * x1)
     return det
 
@@ -39,13 +34,11 @@ def rand(min1, max1):
 #### Number guesser
 ## Need rebirth.rand(min1, max1) (see example)
 
-
 def guess(rand):
     
     guess = float(input("Rebirth| Guess > "))
     if guess == rand:
         print("Rebirth| You found the correct number.")
-        
     elif guess < rand:
         print("Rebirth| Higher!")
     elif guess > rand:
@@ -132,7 +125,6 @@ def odd_even(number, messageEven, messageOdd):
 ## OTHER EXAMPLE
 # rebirth.odd_even(rebirth.rand(1,20), "Even", "Odd")
 
-
 #### For... loop
 
 def loop(value, times, function):
@@ -150,7 +142,6 @@ def loop(value, times, function):
 #### Infinity Loop (Checker Loop)
 
 def loopinf(value, function):
-    
     for o in range(1, value):
         for p in range(1, value):
             function()
@@ -164,12 +155,15 @@ def loopinf(value, function):
 # will repeat the hi() function infinity as long you don't change value by 0
 # rebirth.loopinf(0, hi)
 # the loop on the hi() function will end.
-        
-    
-        
-    
-    
 
+#### Callfile
+### Search for a file and call it plus need function
 
+def callfile(file, function):
+    with open(file) as f:
+        for line in f:
+            function(line)
 
-
+## Example
+# rebirth.callfile("foo.py", "bar")
+# will call the foo.py file and call the bar() function.
