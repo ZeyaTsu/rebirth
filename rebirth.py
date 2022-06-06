@@ -34,8 +34,7 @@ def rand(min1, max1):
 #### Number guesser
 ## Need rebirth.rand(min1, max1) (see example)
 
-def guess(rand):
-    
+def guess(rand):    
     guess = float(input("Rebirth| Guess > "))
     if guess == rand:
         print("Rebirth| You found the correct number.")
@@ -102,7 +101,6 @@ def password(len):
 # length = int(input("Password length: "))
 # print("Your new password is", rebirth.password(length))
 
-
 #### Ping
 def ping():
     print("Pong(1)")
@@ -154,16 +152,3 @@ def loopinf(value, function):
 # rebirth.loopinf(4, hi)
 # will repeat the hi() function infinity as long you don't change value by 0
 # rebirth.loopinf(0, hi)
-# the loop on the hi() function will end.
-
-#### Callfile
-### Search for a file and call it plus need function
-
-def callfile(file, function):
-    with open(file) as f:
-        for line in f:
-            function(line)
-
-## Example
-# rebirth.callfile("foo.py", "bar")
-# will call the foo.py file and call the bar() function.
